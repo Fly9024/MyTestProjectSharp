@@ -88,14 +88,9 @@ namespace MyTestProjectSharp
         static void Main(string[] args)
         {
 
-            Arrays arrays = new Arrays(10,5);
-            arrays.showArray();
-            Console.WriteLine();
-            Console.WriteLine(arrays[1,1]);
-            arrays[2,2] = 123;
-            Console.WriteLine();
-            arrays.showArray();
-            
+            Child2 child2 = new Child2(585,"Еще строка",6.22);
+            child2.showChild();
+
             Console.ReadKey();
 
 

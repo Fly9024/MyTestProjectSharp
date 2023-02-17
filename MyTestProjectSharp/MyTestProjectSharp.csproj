@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays.cs" />
+    <Compile Include="Child.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="Class3.cs" />
+    <Compile Include="Parent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
